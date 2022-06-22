@@ -10,10 +10,12 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:jsx-a11y/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:import/recommended',
   ],
   settings: {
     'import/resolver': {
       node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
         moduleDirectory: ['node_modules', 'src/'],
       },
     },
@@ -26,8 +28,15 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['prettier', 'react', 'react-hooks'],
+  plugins: ['prettier', 'react', 'react-hooks', 'import'],
   rules: {
+    // 'import/no-unresolved': 'off',
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: ['.*'],
+      },
+    ],
     'prettier/prettier': [
       'error',
       {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from 'logo.svg';
+import favicon from 'favicon.svg';
 import 'App.css';
 import Sample from 'Components/Sample';
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className='App'>
-      <img src={logo} alt='Logo' className='App-logo' />
+      <img src={favicon} alt='Logo' className='App-logo' />
       <h1>I cannot believe it's working finally!!</h1>
       <Sample />
       <div>
