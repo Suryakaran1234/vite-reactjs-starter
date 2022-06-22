@@ -1,4 +1,5 @@
-# REACT_VITEJS_STARTER (⚛️REACT + VITEJS + ABSOLUTE IMPORTES + ESLINT + PRETTIER BASIC CONFIG)
+# REACT_VITEJS_STARTER 
+## (REACT⚛️ + VITEJS⚡️ + ABSOLUTE IMPORTES📦 + ESLINT🔥 + PRETTIER🦋 BASIC CONFIG)
 
 I really liked the vitejs tool, so I decided to make a personalized boiler plate project similar to create-react-app.
 
